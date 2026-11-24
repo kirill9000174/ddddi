@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Термины — озвучка</title>
+  <style>
+    :root {
+      --bg: #f3efe6;
+      --ink: #1c1914;
+      --muted: #5c564c;
+      --line: #d9d0c1;
+      --accent: #0f5c4c;
+      --card: #fffdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Literata", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
+      background:
+        radial-gradient(ellipse 80% 50% at 10% -10%, #e7f0ea 0%, transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 0%, #efe6d6 0%, transparent 50%),
+        var(--bg);
+      color: var(--ink);
+      line-height: 1.45;
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 3rem;
+    }
+    h1 {
+      font-size: clamp(1.6rem, 4vw, 2.2rem);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.35rem;
+    }
+    .lead {
+      color: var(--muted);
+      margin: 0 0 1.75rem;
+      font-size: 1rem;
+    }
+    ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: grid;
+      gap: 0.75rem;
+    }
+    li {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 0.9rem 1rem 1rem;
+    }
+    .label {
+      display: block;
+      font-weight: 650;
+      font-size: 1.05rem;
+      margin-bottom: 0.55rem;
+      color: var(--accent);
+    }
+    audio {
+      width: 100%;
+      height: 36px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Термины — озвучка</h1>
+    <p class="lead">Нажмите ▶ у нужного термина, чтобы прослушать определение.</p>
+    <ol>
+      <li><span class="label">1. Сознание</span><audio controls preload="none" src="01-soznanie.mp3"></audio></li>
+      <li><span class="label">2. Мышление</span><audio controls preload="none" src="02-myshlenie.mp3"></audio></li>
+      <li><span class="label">3. Язык</span><audio controls preload="none" src="03-yazyk.mp3"></audio></li>
+      <li><span class="label">4. Здравый смысл</span><audio controls preload="none" src="04-zdravyy-smysl.mp3"></audio></li>
+      <li><span class="label">5. Рассудок</span><audio controls preload="none" src="05-rassudok.mp3"></audio></li>
+      <li><span class="label">6. Разум</span><audio controls preload="none" src="06-razum.mp3"></audio></li>
+      <li><span class="label">7. Бессознательное</span><audio controls preload="none" src="07-bessoznatelnoe.mp3"></audio></li>
+      <li><span class="label">8. Сознательное</span><audio controls preload="none" src="08-soznatelnoe.mp3"></audio></li>
+      <li><span class="label">9. Познание</span><audio controls preload="none" src="09-poznanie.mp3"></audio></li>
+      <li><span class="label">10. Субъект познания</span><audio controls preload="none" src="10-subekt-poznaniya.mp3"></audio></li>
+      <li><span class="label">11. Объект познания</span><audio controls preload="none" src="11-obiekt-poznaniya.mp3"></audio></li>
+      <li><span class="label">12. Субъективное</span><audio controls preload="none" src="12-subektivnoe.mp3"></audio></li>
+      <li><span class="label">13. Объективное</span><audio controls preload="none" src="13-obiektivnoe.mp3"></audio></li>
+      <li><span class="label">14. Интуиция</span><audio controls preload="none" src="14-intuitsiya.mp3"></audio></li>
+      <li><span class="label">15. Чувственное познание</span><audio controls preload="none" src="15-chuvstvennoe-poznanie.mp3"></audio></li>
+      <li><span class="label">16. Рациональное познание</span><audio controls preload="none" src="16-ratsionalnoe-poznanie.mp3"></audio></li>
+      <li><span class="label">17. Правда</span><audio controls preload="none" src="17-pravda.mp3"></audio></li>
+      <li><span class="label">18. Относительная истина</span><audio controls preload="none" src="18-otnositelnaya-istina.mp3"></audio></li>
+      <li><span class="label">19. Абсолютная истина</span><audio controls preload="none" src="19-absolyutnaya-istina.mp3"></audio></li>
+      <li><span class="label">20. Заблуждение</span><audio controls preload="none" src="20-zabluzhdenie.mp3"></audio></li>
+      <li><span class="label">21. Ложь</span><audio controls preload="none" src="21-lozh.mp3"></audio></li>
+      <li><span class="label">22. Проблема</span><audio controls preload="none" src="22-problema.mp3"></audio></li>
+      <li><span class="label">23. Гипотеза</span><audio controls preload="none" src="23-gipoteza.mp3"></audio></li>
+      <li><span class="label">24. Теория</span><audio controls preload="none" src="24-teoriya.mp3"></audio></li>
+    </ol>
+  </main>
+</body>
+</html>
